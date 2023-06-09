@@ -1,0 +1,132 @@
+/*
+Theme Name:   jackpet
+Description:  jack Pet Theme
+Author:       ryan Jelf
+Version:      1.0.0
+Tags:         light, full-width, responsive-layout
+*/
+
+/* font for whole website */
+*{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+header{
+    padding-bottom: 30px;
+}
+/* Hero Image */
+.wp-block-image{
+    width: fit-content;
+    margin: auto;
+}
+
+/* hide product title  */
+.wc-product-title{
+    visibility: hidden;
+  }
+
+
+/* custom product image sizing */
+
+.woocommerce-product-gallery__image {
+    height: auto;
+    width: 400px;
+    margin: auto;
+    pointer-events: none;
+    position: sticky; 
+}
+
+  .woocommerce-product-gallery__trigger{
+visibility: hidden;
+  }
+
+/* Navigation */
+
+#main_nav{
+    width: fit-content;
+    margin: auto;
+}
+
+#main_nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+
+}
+#main_nav li {
+    float: left;
+    width: 105px;
+}
+#main_nav a {
+    display: block;
+    color: rgb(142, 91, 3);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.current_page_item{
+    font-weight:bolder;
+}
+
+
+
+/* sub-menus */
+#main_nav li ul {
+    position: absolute;
+    display: none;
+    width: 150px;
+    z-index: 2000 !important;
+}
+
+#main_nav li ul li a {
+    text-align: left;
+}
+
+#main_nav li:hover ul {
+    display: block;
+    background-color: rgb(249, 235, 216);  
+}
+
+
+
+
+/* Card section to show dogs and pet tips */
+
+.card_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+
+}
+
+.card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+
+}
+
+.card_title{
+    text-align: center;
+    padding: 10px;
+}
+
+.card_image {
+  width: 70%;
+  display: block;
+  padding-top: 5px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  padding: 10px;
+}
+
+
+/* footer */
+#site-footer{
+    text-align: center;
+}

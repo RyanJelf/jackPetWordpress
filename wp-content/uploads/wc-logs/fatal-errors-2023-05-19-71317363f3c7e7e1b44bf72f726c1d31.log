@@ -1,0 +1,4 @@
+2023-05-19T14:29:12+00:00 CRITICAL syntax error, unexpected identifier " " in C:\xampp\htdocs\jackpet\wp-content\themes\jackpet\page-sherlock-dog-rescue.php on line 8
+
+2023-05-19T18:50:30+00:00 CRITICAL syntax error, unexpected token ".", expecting ")" in C:\xampp\htdocs\jackpet\wp-content\themes\jackpet\functions.php on line 15
+
